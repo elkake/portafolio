@@ -1,0 +1,65 @@
+.mem_back-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #3339;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  font-family: var(--font-sans);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mem_container {
+  width: 90%;
+  max-width: 800px;
+  height: 90vh;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #000;
+  overflow-y: scroll;
+  border: 2px solid var(--naranja);
+  h2 {
+    text-align: center;
+    color: var(--naranja);
+    padding: 1rem 0;
+  }
+  p {
+    text-align: justify;
+    padding: 0 1rem;
+  }
+}
+
+.mem_img {
+  width: 100%;
+
+  margin-top: 1rem;
+
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+.mem_segundo {
+  ul {
+    list-style: none;
+    li {
+      text-align: justify;
+      padding: 0.5rem 1rem;
+    }
+  }
+}
+
+.mem_button {
+  margin: 1rem;
+}

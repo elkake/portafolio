@@ -1,0 +1,20 @@
+.menu_button {
+  border: none;
+  position: fixed;
+  right: 12px;
+  top: 12px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--negro);
+  border-radius: 50%;
+  border: 2px solid var(--naranja);
+  z-index: 10;
+  cursor: pointer;
+}
+.ico_menu {
+  font-size: 32px;
+  color: var(--naranja);
+}
+// .bgwhite {
+//   background-color: var(--blanco);
+// }

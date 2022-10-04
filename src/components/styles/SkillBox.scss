@@ -1,0 +1,59 @@
+.sk_box-container {
+  color: var(--blanco);
+  padding: 8px;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  align-items: center;
+  // color :#000;
+}
+
+.sk_box-img {
+  width: 200px;
+  text-align: center;
+  img {
+    width: 50%;
+  }
+}
+
+.sk_box-description {
+  list-style: none;
+  li {
+    padding: 2px 0;
+  }
+}
+
+.sk_naranja {
+  border: 2px solid var(--naranja-b);
+  box-shadow: 0 5px 8px 1px var(--naranja-b);
+}
+
+.sk_celeste {
+  border: 2px solid var(--celeste-b);
+  box-shadow: 0 5px 8px 1px var(--celeste-b);
+}
+.sk_amarillo {
+  border: 2px solid var(--amarillo);
+  box-shadow: 0 5px 8px 1px var(--amarillo);
+}
+.sk_azul {
+  border: 2px solid var(--azul);
+  box-shadow: 0 5px 8px 1px var(--azul);
+}
+.sk_gris {
+  border: 2px solid var(--blanco);
+  box-shadow: 0 5px 8px 1px var(--blanco);
+}
+.sk_rojo {
+  border: 2px solid var(--rojo);
+  box-shadow: 0 5px 8px 1px var(--rojo);
+}
+.sk_sangre {
+  border: 2px solid var(--rosa);
+  box-shadow: 0 5px 8px 1px var(--rosa);
+}
+.sk_verde {
+  border: 2px solid var(--verde);
+  box-shadow: 0 5px 8px 1px var(--verde);
+}

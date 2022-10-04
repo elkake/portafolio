@@ -1,0 +1,38 @@
+.pr_vector-container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.pr_vector-vector {
+  position: relative;
+  margin: 2rem 0;
+  height: 95%;
+  width: 95%;
+  img {
+    width: 100%;
+  }
+}
+
+.pr_vector-gif {
+  position: absolute;
+  top: -19%;
+  left: -6.5%;
+  width: 113%;
+  img{
+    width: 100%;
+
+  }
+}
+
+.pr_vector-balls {
+  position: absolute;
+  top: 0;
+}
+.pr_button {
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+}

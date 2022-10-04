@@ -1,0 +1,40 @@
+.pr_container {
+}
+.pr_title {
+  margin-bottom: -2rem;
+}
+.pr_flexcontainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.pr_container-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.pr_container-right {
+  color: #fff;
+  flex: 1;
+  height: 300px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pr_container-right-grid {
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-gap: 1px;
+
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-template-rows: repeat(4, 100px);
+}

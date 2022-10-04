@@ -1,0 +1,55 @@
+.footer {
+  font-family: var(--font-quicksand);
+  color: var(--blanco-d);
+  position: relative;
+  font-weight: bold;
+}
+
+.ft_container {
+  outline: 2px solid var(--naranja);
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, var(--naranja), var(--celeste));
+}
+
+.ft_data {
+  flex: 1;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.ft_button {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    height: 36px;
+
+    width: 36px;
+    border-radius: 4px;
+    box-shadow: 0 0 px var(--negro);
+    &:nth-child(1) {
+      color: var(--azul);
+      border: 2px solid var(--azul);
+      background-color: #0009;
+    }
+    &:nth-child(2) {
+      color: var(--negro);
+      border: 2px solid var(--negro);
+      background-color: #0002;
+    }
+    &:nth-child(3) {
+      color: var(--morado);
+      border: 2px solid var(--morado);
+      background-color: #000c;
+    }
+  }
+}
+
+.ft_ico {
+  width: 100%;
+  height: 100%;
+  //   color: var(--negro);
+}
