@@ -1,7 +1,7 @@
 import './NavDesktop.scss';
 import { Link } from 'react-scroll';
 import { BsFillSunFill as Sol, BsFillMoonFill as Luna } from 'react-icons/Bs';
-import logo from '../img/logo.png';
+import logo from '../img//nav/logomkake.svg';
 import { contextData } from '../context/Context';
 import { toggle } from '../hooks/toggle';
 function NavDesktop() {

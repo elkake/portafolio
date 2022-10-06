@@ -31,19 +31,19 @@
     border-radius: 4px;
     box-shadow: 0 0 px var(--negro);
     &:nth-child(1) {
-      color: var(--azul);
-      border: 2px solid var(--azul);
-      background-color: #0009;
+      color: var(--naranja);
+      border: 2px solid var(--naranja);
+      background-color: var(--negro-d);
     }
     &:nth-child(2) {
-      color: var(--negro);
-      border: 2px solid var(--negro);
-      background-color: #0002;
+      color: var(--naranja);
+      border: 2px solid var(--naranja);
+      background-color: var(--negro-d);
     }
     &:nth-child(3) {
-      color: var(--morado);
-      border: 2px solid var(--morado);
-      background-color: #000c;
+      color: var(--naranja);
+      border: 2px solid var(--naranja);
+      background-color: var(--negro-d);
     }
   }
 }

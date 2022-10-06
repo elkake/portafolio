@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import logo from '../img/logo.png';
+import logo from '../img/nav/logo.svg';
 import './styles/Nav.scss';
 import { BsFillSunFill as Sol, BsFillMoonFill as Luna } from 'react-icons/Bs';
 import { contextData } from '../context/Context';

@@ -20,12 +20,22 @@
 .cm_right {
   flex: 1;
   width: 100%;
-  height: 350px;
+  height: 400px;
+  position: relative;
+  padding: 5rem;
   img {
-    object-fit: contain;
     width: 100%;
     height: 100%;
   }
+}
+.cm_right-img1{
+  position: relative;
+}
+.cm_right-img2 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+
 }
 
 .cm_left {
@@ -36,7 +46,7 @@
   justify-content: space-between;
   padding: 1rem 2rem;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .cm_input-cotainer {
@@ -78,11 +88,7 @@
     background: linear-gradient(to bottom, #000 50%, #111);
   }
   &:focus {
-    background: linear-gradient(
-      180deg,
-      var(--naranja),
-      var(--celeste)
-    );
+    background: linear-gradient(180deg, var(--naranja), var(--celeste));
     color: var(--negro);
 
     outline: none;
@@ -91,7 +97,7 @@
 }
 
 .bgwhite-input {
-  background-color: #fff;
+  background-color: #eee;
   border-bottom: 4px solid var(--blanco);
   color: #000;
   &::placeholder {
@@ -114,4 +120,3 @@
   height: 10rem;
   // overflow-y: scroll;
 }
-

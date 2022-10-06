@@ -71,47 +71,48 @@
     padding-top: 0.5rem;
   }
 }
-.me_button{
+.me_button {
   margin-bottom: 2rem;
 }
 .me_right {
   flex: 1;
-  position: relative;
   min-height: 300px;
   max-width: 1100px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.vector1 {
-  width: 86.4%;
-  height: 100%;
   img {
-    height: 100%;
-    width: 100%;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
   }
 }
-
+.vector1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 .me_right-persona {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: -0.6%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   img {
-    object-fit: contain;
     width: 100%;
     height: 100%;
+    transform: scale(1.07);
   }
 }
 
-.body_flotar {
+.body_flotar1 {
   position: absolute;
-  width: 70%;
-  height: 100%;
-  img {
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-  }
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }

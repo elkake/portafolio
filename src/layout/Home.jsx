@@ -35,13 +35,13 @@ function Home() {
         </div>
         <div className="me_right">
           <div className="vector1">
-            <img src={vector1} alt="" />
-          </div>
-          <div className="me_right-persona">
-            <img src={elkake} alt="elkake" />
-          </div>
-          <div className="body_flotar body_flotar1">
-            <img src={flotar} alt="" />
+            <img src={vector1} alt="vector1" />
+            <div className="me_right-persona">
+              <img src={elkake} alt="elkake" />
+            </div>
+            <div className="body_flotar body_flotar1">
+              <img src={flotar} alt="flotar bolas" />
+            </div>
           </div>
         </div>
       </section>

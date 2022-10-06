@@ -3,13 +3,13 @@ import Skills from '../components/Skills';
 import { contextData } from '../context/Context';
 import './Habilidades.scss';
 function Habilidades() {
-  const { data, light } = contextData();
+  const { data } = contextData();
 
   return (
     <div
       name="habilidades"
       id="habilidades"
-      className={`skill_container  ${light && 'bgwhite'}`}
+      className="skill_container"
     >
       <h2 className="sk_left-title">HABILIDADES</h2>
       <div className="sk_containerlr">

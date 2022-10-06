@@ -1,5 +1,6 @@
 import './ContactMe.scss';
-import avion from '../img/avionpapel.png';
+import avion from '../img/contact/mail.svg';
+import mont from '../img/contact/motañas.svg';
 import { contextData } from '../context/Context';
 function ContactMe() {
   const { light } = contextData();
@@ -21,7 +22,13 @@ function ContactMe() {
       <h2 className="cm_title">CONTACTAME</h2>
       <div id="form" className="cm_container">
         <div className="cm_right">
-          <img src={avion} alt="" />
+        <div className="cm_right-img cm_right-img1">
+            <img src={mont} alt="montaña_svg" />
+            <div className="cm_right-img cm_right-img2">
+            <img className="avion" src={avion} alt="avion_papel_svg" />
+          </div>
+          </div>
+          
         </div>
         <form className="cm_left" onSubmit={enviarForm}>
           <div className="cm_input-cotainer">
