@@ -1,38 +1,43 @@
 .pr_vector-container {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 4rem;
   position: relative;
 }
-.pr_vector-vector {
-  position: relative;
-  margin: 2rem 0;
-  height: 95%;
-  width: 95%;
-  img {
-    width: 100%;
-  }
+.vector4{
+  transform: scale(0.9);
 }
-
-.pr_vector-gif {
-  position: absolute;
-  top: -19%;
-  left: -6.5%;
-  width: 113%;
+.pr_vector{
+  position: relative;
+  width: 98%;
+  height: 98%;
   img{
     width: 100%;
-
   }
 }
 
-.pr_vector-balls {
+.pr_vector-gif{
   position: absolute;
   top: 0;
+}
+.pr_vector .pr_vector-gif-img{
+  top:-11%;
+  
+  img{
+    width: 100%;
+  }
 }
 .pr_button {
   position: absolute;
   bottom: 0;
+  width: 200px;
+  height: 60px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
 }

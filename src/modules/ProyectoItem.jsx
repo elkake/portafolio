@@ -7,20 +7,18 @@ function ProyectoItem() {
   return (
     <>
       <div className="pr_vector-container">
-        <div className="pr_vector-vector">
           <div className="pr_vector">
-            <img src={vector4} alt="elkake vector" />
-          </div>
-          <div className="pr_vector-gif">
+            <img className="vector4" src={vector4} alt="elkake vector" />
+            <div className="pr_vector-gif pr_vector-gif-img">
             <img src={sombras} alt="" />
-          </div>
-          <div className="pr_vector-gif">
+            </div>
+            <div className="pr_vector-gif pr_vector-gif-img">
             <img src={gif} alt="rick and morty gif" />
+            </div>
+            <div className="pr_vector-gif">
+              <img src={ballgif} alt="elkake balls" />
+            </div>
           </div>
-          <div className="pr_vector-balls">
-            <img src={ballgif} alt="elkake balls" />
-          </div>
-        </div>
         <a
           className="button pr_button"
           href="https://elkake.github.io/routerdom/#/home"
