@@ -4,6 +4,8 @@ import './styles/Nav.scss';
 import { BsFillSunFill as Sol, BsFillMoonFill as Luna } from 'react-icons/Bs';
 import { contextData } from '../context/Context';
 import { toggle } from '../hooks/toggle';
+import { motion } from 'framer-motion';
+
 function Nav({ menu, setMenu, light }) {
   const { setLight } = contextData();
 
@@ -16,7 +18,12 @@ function Nav({ menu, setMenu, light }) {
     toggle(light);
   };
   return (
-    <div className="nav_container">
+    <motion.div
+      initial={{ opacity: 0, y: '-50%' }}
+      whileInView={{ opacity: 1, y: '0%' }}
+      transition={{ duration: 1, type: 'spring' }}
+      className="nav_container"
+    >
       <button
         className={`nav_close-button ${light && 'bgwhite'}`}
         onClick={closeMenu}
@@ -54,7 +61,7 @@ function Nav({ menu, setMenu, light }) {
           </Link>
         </ul>
       </section>
-    </div>
+    </motion.div>
   );
 }
 

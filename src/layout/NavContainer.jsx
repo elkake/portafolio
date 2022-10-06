@@ -13,7 +13,7 @@ function NavContainer() {
   };
   return (
     <div>
-      {menu && <Nav menu={menu} setMenu={setMenu} light={light}/>}
+      {menu && <Nav menu={menu} setMenu={setMenu} light={light} />}
       <button
         className={`menu_button ${light && 'bgwhite'}`}
         onClick={toogleMenu}

@@ -4,8 +4,11 @@ import flotar from '../img/me/balls.svg';
 import elkake from '../img/me/me.png';
 import { useState } from 'react';
 import vector1 from '../img/me/vectorme.svg';
+import { motion } from 'framer-motion';
 function Home() {
   const [meModal, setMeModal] = useState(false);
+
+  const transition = { duration: 2, type: 'spring' };
 
   const abrir = () => {
     setMeModal(true);
@@ -36,12 +39,22 @@ function Home() {
         <div className="me_right">
           <div className="vector1">
             <img src={vector1} alt="vector1" />
-            <div className="me_right-persona">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={transition}
+              className="me_right-persona"
+            >
               <img src={elkake} alt="elkake" />
-            </div>
-            <div className="body_flotar body_flotar1">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0.3, x: '-10%' }}
+              whileInView={{ opacity: 1, x: '0%' }}
+              transition={transition}
+              className="body_flotar body_flotar1"
+            >
               <img src={flotar} alt="flotar bolas" />
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>

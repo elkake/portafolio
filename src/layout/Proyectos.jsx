@@ -10,10 +10,12 @@ function Proyectos() {
   const { prData } = contextData();
   const { desplegarModal, setDesplegarModal } = llamarPrModal();
 
+  
+
   return (
     <div name="proyectos" className="pr_container" id="proyectos">
       <h2 className="sk_left-title pr_title">PROYECTOS</h2>
-      <div className='pr_flexcontainer'>
+      <div className="pr_flexcontainer">
         <section className="pr_container-left">
           <ProyectoItem />
         </section>
