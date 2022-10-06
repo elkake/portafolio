@@ -74,6 +74,12 @@ body {
 .nd_container {
   display: none;
 }
+
+@media (min-width: 500px) {
+  .me_container_back {
+    font-size: 65px;
+  }
+}
 @media (min-width: 800px) {
   //me
   // .me_right-persona {
