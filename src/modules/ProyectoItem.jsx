@@ -14,25 +14,28 @@ function ProyectoItem() {
         <div className="pr_vector">
           <img className="vector4" src={vector4} alt="elkake vector" />
           <motion.div
-            initial={{ opacity: 0, x: '-15%' }}
-            whileInView={{ opacity: 1, x: '0%' }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={transition}
             className="pr_vector-gif pr_vector-gif-img"
           >
             <img src={sombras} alt="" />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: '-15%' }}
-            whileInView={{ opacity: 1, x: '0%' }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={transition}
-            className="pr_vector-gif pr_vector-gif-img"
+            className="pr_vector-gif pr_vector-gif-img  gifi"
           >
-            <img src={gif} alt="rick and morty gif" />
+            <img
+              src="https://media1.giphy.com/media/Knd43A4FLo11MjRZJ5/giphy.gif?cid=790b76118ff7c75c20cb681cb3ec346acdb39d8294fa77b7&rid=giphy.gif&ct=s"
+              alt="rick and morty gif"
+            />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: '25%' }}
+            initial={{ opacity: 0.5, x: '-15%' }}
             whileInView={{ opacity: 1, x: '0%' }}
-            transition={{ duration: 3, type: 'spring' }}
+            transition={{ duration: 2, type: 'spring' }}
             className="pr_vector-gif"
           >
             <img src={ballgif} alt="elkake balls" />

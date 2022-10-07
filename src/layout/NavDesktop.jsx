@@ -13,7 +13,7 @@ function NavDesktop() {
   };
 
   return (
-    <div className="nd_container">
+    <div id='nd_container' className="nd_container">
       <section className="nd_left">
         <div className="nd_logo-container">
           <img src={logo} alt="" />
