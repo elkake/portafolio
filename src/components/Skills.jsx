@@ -1,6 +1,5 @@
 import BarsForGrafic from '../modules/BarsForGrafic';
 import '../modules/styles/Skills.scss';
-
 function Skills({ skills }) {
   return (
     <div className="skill_grafic">

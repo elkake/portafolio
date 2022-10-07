@@ -49,7 +49,7 @@ function MeModal({ setMeModal }) {
           <h2>Mis metas</h2>
           <p>
             Principalmente mi meta es ser el mejor programador que puedo ser y
-            absorber todo los conocimientos que pueda.Por otro lado, quiero
+            absorber todo los conocimientos que pueda. Por otro lado, quiero
             formar parte de un equipo que se dedique a lo mismo que yo y ganarme
             la vida de esto que me gusta.
             <div className='mem_img'><img src={elkake1} alt="" /></div>

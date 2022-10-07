@@ -13,7 +13,7 @@ const datos = [
     title: 'BATATABIT PLATZI',
     page: 'https://elkake.github.io/batatabit/',
     gh: ' https://github.com/elkake/batatabit',
-    desc: 'Página desarrollada con recursos y conocimientos obtenidos del curso Responsive Design de Platzi, manejando metodología Bem y el espaciado de elementos adecuado para una experiencia de usuario adecuada.',
+    desc: 'Proyecto desarrollado con recursos y conocimientos obtenidos por el curso Responsive Design de Platzi, emulando una plataforma de criptomonedas, manejando metodología Bem y el espaciado de elementos adecuado para una experiencia de usuario adecuada. (HTML + CSS)',
     img: proyecto3,
   },
   {
@@ -21,7 +21,7 @@ const datos = [
     title: 'RICK, MORTY & ROUTER-DOM',
     page: 'https://elkake.github.io/routerdom/#/home',
     gh: ' https://github.com/elkake/routerdom',
-    desc: 'Página desarrollada con recursos y conocimientos obtenidos del curso Responsive Design de Platzi, manejando metodología Bem y el espaciado de elementos adecuado para una experiencia de usuario adecuada.',
+    desc: 'Proyecto realizado de manera autodidacta para practicar el funcionamiento del paquete de enrutamiento React Router Dom y complementarlo con una llamada a la API de Rick & Morty. (REACT)',
     img: proyecto1,
   },
   {
@@ -29,7 +29,7 @@ const datos = [
     title: 'C&A PETS',
     page: 'https://elkake.github.io/CyA_Pets/',
     gh: 'https://github.com/elkake/CyA_Pets',
-    desc: 'Página creada en mis inicios con referencia a la adopción de animales y a la relación entre dueño y mascota. No es responsive design.',
+    desc: 'Proyecto creado como practica de mis conocimientos aprendidos de html y css enfocándome en un problema actual de la sociedad, que es el abandono de mascotas y la adopción de estos mismos. (HTML + CSS)',
     img: proyecto4,
   },
   {
@@ -37,7 +37,7 @@ const datos = [
     title: 'PALTASHOP',
     page: 'https://elkake.github.io/tiendap/',
     gh: 'https://github.com/elkake/tiendap',
-    desc: 'Página de paltas desarrollada con recursos y conocimientos obtenidos del curso Manipulación del DOM de Platzi, llamando a una API para obtener la imagen de los productos.',
+    desc: 'Proyecto desarrollado con recursos y conocimientos obtenidos por el curso Manipulación del DOM de Platzi, haciendo una llamada a su API Avocado para obtener paltas de diferentes tipos emulando una minitienda online. (HTML + CSS + JS)',
     img: proyecto6,
   },
   {
@@ -45,7 +45,7 @@ const datos = [
     title: 'RICK & MORTY CARDS',
     page: 'https://elkake.github.io/getallcardsAPIR-M/',
     gh: 'https://github.com/elkake/getallcardsAPIR-M',
-    desc: 'Página creada por pura practica que consiste en invocar cartas de un portal para traer a los personajes de Rick  & Morty, llamando a la api publica de Rick & Morty.  ',
+    desc: 'Un proyecto simple para practicar el llamado de API (Fetch) y la manipulación del DOM, emulando una página que crea cartas de diferentes personajes y su respectiva descripción. (HTML + CSS + JS)',
     img: proyecto2,
   },
   {
@@ -53,15 +53,15 @@ const datos = [
     title: 'RANDOM FOX',
     page: 'https://elkake.github.io/lazyload/',
     gh: 'https://github.com/elkake/lazyload',
-    desc: 'Página de paltas desarrollada con recursos y conocimientos obtenidos del curso Manipulación del DOM de platzi, llamando a una API que nos devuelve fotos de zorros.',
+    desc: 'Proyecto desarrollado con  conocimientos obtenidos gracias al curso de Manipulación del DOM de Platzi, llamando a la API randomFox, manejando Interesection Observer para manipular los elementos del DOM y en qué momento se hacen visibles. (HTML + CSS + JS)',
     img: proyecto5,
   },
   {
     id: '16',
-    title: 'YARDSALE',
+    title: 'KAKESALE',
     page: '#',
     gh: '#',
-    desc: 'Proyecto que consiste en generar etiquetas que contengan tareas a través de un form, esto es creado con los conocimientos obtenidos del curso react básico de FreeCodCamp',
+    desc: 'Proyecto Eccomerce desarrollado de manera autodidacta para practicar el manejo de React y sus funciones, emulando una tienda de productos obtenidos gracias a la API de PlatziStore. (REACT)',
     img: proyecto7,
   },
   {
@@ -69,7 +69,7 @@ const datos = [
     title: 'GIFMORE',
     page: '#',
     gh: '#',
-    desc: 'Proyecto que consiste en generar etiquetas que contengan tareas a través de un form, esto es creado con los conocimientos obtenidos del curso react básico de FreeCodCamp',
+    desc: 'Proyecto realizado con los conocimientos obtenido por el curso de React de Midudev, emulando un buscador de gif, que maneja los gif más populares, muestra las descripciones de estos mismos y el enrutamiento dinámico de React Router Dom. (REACT)',
     img: proyecto8,
   },
 ];

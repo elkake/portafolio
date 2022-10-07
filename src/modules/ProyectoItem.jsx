@@ -14,7 +14,7 @@ function ProyectoItem() {
         <div className="pr_vector">
           <img className="vector4" src={vector4} alt="elkake vector" />
           <motion.div
-            initial={{ opacity: 0, x: '-10%' }}
+            initial={{ opacity: 0, x: '-15%' }}
             whileInView={{ opacity: 1, x: '0%' }}
             transition={transition}
             className="pr_vector-gif pr_vector-gif-img"
@@ -22,7 +22,7 @@ function ProyectoItem() {
             <img src={sombras} alt="" />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: '-20%' }}
+            initial={{ opacity: 0, x: '-15%' }}
             whileInView={{ opacity: 1, x: '0%' }}
             transition={transition}
             className="pr_vector-gif pr_vector-gif-img"
@@ -30,9 +30,9 @@ function ProyectoItem() {
             <img src={gif} alt="rick and morty gif" />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, right: '12%' }}
-            whileInView={{ opacity: 1, right: '0%' }}
-            transition={{ duration: 4, type: 'spring' }}
+            initial={{ opacity: 0, x: '25%' }}
+            whileInView={{ opacity: 1, x: '0%' }}
+            transition={{ duration: 3, type: 'spring' }}
             className="pr_vector-gif"
           >
             <img src={ballgif} alt="elkake balls" />
