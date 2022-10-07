@@ -1,5 +1,4 @@
 import vector4 from '../img/gif/vectorgif.svg';
-import gif from '../img/gif/rymportafolio.gif';
 import sombras from '../img/gif/sombras.png';
 import ballgif from '../img/gif/ballsgif.svg';
 import './styles/ProyectoItem.scss';

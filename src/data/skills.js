@@ -13,7 +13,7 @@ const data = [
     nombre: 'HTML',
     color: 'naranja',
     img: img1,
-    descripcion: ['Conceptos generales', 'Buenas prácticas'],
+    descripcion: ['Conceptos básicos', 'Buenas prácticas', 'Metodología BEM'],
   },
   {
     id: '2',
@@ -22,8 +22,8 @@ const data = [
     img: img2,
     descripcion: [
       'Conceptos básicos',
-      ' Display',
-      ' Grid',
+      'Display',
+      'Grid',
       'Flex',
       'Responsive design',
     ],
@@ -37,7 +37,7 @@ const data = [
       'Conceptos básicos',
       'Manipulación del DOM',
       'Asincronismo',
-      'Consumir APIREST',
+      'Fetch',
       'indexedDB',
     ],
   },
@@ -46,12 +46,7 @@ const data = [
     nombre: 'React',
     color: 'azul',
     img: img4,
-    descripcion: [
-      'Funcional Components',
-      'hooks',
-      'ReactRouter',
-      'Vite',
-    ],
+    descripcion: ['Funcional Components', 'hooks', 'ReactRouterDom', 'Vite'],
   },
 
   {
@@ -59,48 +54,28 @@ const data = [
     nombre: 'terminal',
     color: 'gris',
     img: img5,
-    descripcion: [
-      'FuncionalComponents',
-      'hooks : useState, useReff, useContext, useEffect',
-      'ReactRouter',
-      'Vite',
-    ],
+    descripcion: ['Ubicarse', 'Crear archivos', 'Remover', 'Configurar alias'],
   },
   {
     id: '6',
     nombre: 'NPM',
     color: 'rojo',
     img: img6,
-    descripcion: [
-      'FuncionalComponents',
-      'hooks : useState, useReff, useContext, useEffect',
-      'ReactRouter',
-      'Vite',
-    ],
+    descripcion: ['Manejo de Dependencias', 'Configuracion de Paquetes', 'git'],
   },
   {
     id: '7',
     nombre: 'GitHub',
     color: 'sangre',
     img: img7,
-    descripcion: [
-      'FuncionalComponents',
-      'hooks : useState, useReff, useContext, useEffect',
-      'ReactRouter',
-      'Vite',
-    ],
+    descripcion: ['Crear Repositorios', 'Fork', 'Gh-pages', 'Push & Pull'],
   },
   {
     id: '8',
     nombre: 'NodeJS',
     color: 'verde',
     img: img8,
-    descripcion: [
-      'FuncionalComponents',
-      'hooks : useState, useReff, useContext, useEffect',
-      'ReactRouter',
-      'Vite',
-    ],
+    descripcion: ['Conocimientos basicos', 'Proceso de Aprendizaje'],
   },
 ];
 
