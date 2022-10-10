@@ -66,9 +66,9 @@ const datos = [
   },
   {
     id: '17',
-    title: 'GIFMORE',
-    page: '#',
-    gh: '#',
+    title: 'PANDAGIF',
+    page: 'https://elkake.github.io/pandagif/',
+    gh: 'https://github.com/elkake/pandagif',
     desc: 'Proyecto realizado con los conocimientos obtenido por el curso de React de Midudev, emulando un buscador de gif, que maneja los gif más populares, muestra las descripciones de estos mismos y el enrutamiento dinámico de React Router Dom. (REACT)',
     img: proyecto8,
   },

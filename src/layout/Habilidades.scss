@@ -31,4 +31,6 @@
   flex: 1;
   display: flex;
   overflow-x: scroll;
+  // overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
 }
