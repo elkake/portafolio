@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll';
 import logo from '../img/nav/logo.svg';
 import './styles/Nav.scss';
-import { BsFillSunFill as Sol, BsFillMoonFill as Luna } from 'react-icons/Bs';
+
 import { contextData } from '../context/Context';
 import { toggle } from '../hooks/toggle';
 import { motion } from 'framer-motion';
@@ -35,11 +35,11 @@ function Nav({ menu, setMenu, light }) {
           <img src={logo} alt="" />
         </div>
         <div className="nav_left-toggle-container">
-          <Luna className="nav_ico" />
+
           <div className="nav_left-toggle" onClick={toggleDark}>
             <div className={light ? 'toggle_light' : ''}></div>
           </div>
-          <Sol className="nav_ico" />
+
         </div>
       </section>
       <section className={`nav_right ${menu && 'black'}`}>
