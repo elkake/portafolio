@@ -56,14 +56,7 @@ const datos = [
     desc: 'Proyecto desarrollado con  conocimientos obtenidos gracias al curso de Manipulación del DOM de Platzi, llamando a la API randomFox, manejando Interesection Observer para manipular los elementos del DOM y en qué momento se hacen visibles. (HTML + CSS + JS)',
     img: proyecto5,
   },
-  {
-    id: '16',
-    title: 'KAKESALE',
-    page: '#',
-    gh: '#',
-    desc: 'Proyecto Eccomerce desarrollado de manera autodidacta para practicar el manejo de React y sus funciones, emulando una tienda de productos obtenidos gracias a la API de PlatziStore. (REACT)',
-    img: proyecto7,
-  },
+  
   {
     id: '17',
     title: 'PANDAGIF',
