@@ -1,6 +1,6 @@
 import './NavDesktop.scss';
 import { Link } from 'react-scroll';
-import { BsFillSunFill as Sol, BsFillMoonFill as Luna } from 'react-icons/Bs';
+
 import logo from '../img//nav/logomkake.svg';
 import { contextData } from '../context/Context';
 import { toggle } from '../hooks/toggle';
@@ -19,8 +19,6 @@ function NavDesktop() {
           <img src={logo} alt="" />
         </div>
         <div className="nd_toggle">
-          <Luna className="nd_ico" />
-          <Sol className="nd_ico" />
           <div
             className={`nd_box-toggle ${light && 'nd_box-light'}`}
             onClick={toggleDark}

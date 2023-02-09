@@ -75,7 +75,7 @@ const data = [
     nombre: 'NodeJS',
     color: 'verde',
     img: img8,
-    descripcion: ['Conocimientos basicos', 'Proceso de Aprendizaje'],
+    descripcion: ['Paquetes de consola', 'Llamadas http con Express','CRUD + mySQL'],
   },
 ];
 
