@@ -1,7 +1,6 @@
 import './styles/PrModal.scss';
 import { contextData } from '../context/Context';
-import { BsGithub } from 'react-icons/Bs';
-import { FiExternalLink } from 'react-icons/fi';
+import { FiGithub as BsGithub, FiExternalLink } from 'react-icons/fi';
 
 function PrModal({ des }) {
   const { id, light } = contextData();
