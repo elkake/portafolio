@@ -33,7 +33,7 @@ function Footer() {
         <div className="ft_button">
           <a
             className="ft_link"
-            href="https://www.linkedin.com/in/gianfranco-marquez-ruiz-b0021224a/"
+            href="https://www.linkedin.com/in/giancomarquez/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,7 +49,7 @@ function Footer() {
           </a>
           <a
             className="ft_link"
-            href="https://www.instagram.com/giakeruz_/"
+            href="https://www.instagram.com/g1akeruz/"
             target="_blank"
             rel="noopener noreferrer"
           >
