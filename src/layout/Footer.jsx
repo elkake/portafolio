@@ -33,7 +33,7 @@ function Footer() {
         <div className="ft_button">
           <a
             className="ft_link"
-            href="https://www.linkedin.com/in/giancomarquez/"
+            href="https://www.linkedin.com/in/gianfranco-marquez/"
             target="_blank"
             rel="noopener noreferrer"
           >
