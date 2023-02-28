@@ -1,11 +1,11 @@
-import img1 from '../img/html.png';
-import img2 from '../img/css.png';
-import img3 from '../img/js.png';
-import img4 from '../img/react.png';
-import img5 from '../img/terminal.png';
-import img6 from '../img/npm.png';
-import img7 from '../img/github.png';
-import img8 from '../img/node.png';
+import img1 from '../img/html.png'
+import img2 from '../img/css.png'
+import img3 from '../img/js.png'
+import img4 from '../img/react.png'
+import img5 from '../img/terminal.png'
+import img6 from '../img/npm.png'
+import img7 from '../img/github.png'
+import img8 from '../img/node.png'
 
 const data = [
   {
@@ -13,7 +13,7 @@ const data = [
     nombre: 'HTML',
     color: 'naranja',
     img: img1,
-    descripcion: ['Conceptos básicos', 'Buenas prácticas', 'Metodología BEM'],
+    descripcion: ['Conceptos básicos', 'Buenas prácticas', 'Metodología BEM']
   },
   {
     id: '2',
@@ -25,8 +25,8 @@ const data = [
       'Display',
       'Grid',
       'Flex',
-      'Responsive design',
-    ],
+      'Responsive design'
+    ]
   },
   {
     id: '3',
@@ -35,48 +35,48 @@ const data = [
     img: img3,
     descripcion: [
       'Conceptos básicos',
-      'Manipulación del DOM',
+      'POO',
       'Asincronismo',
       'Fetch',
-      'indexedDB',
-    ],
+      'indexedDB'
+    ]
   },
   {
     id: '4',
     nombre: 'React',
     color: 'azul',
     img: img4,
-    descripcion: ['Funcional Components', 'hooks', 'ReactRouterDom', 'Vite'],
+    descripcion: ['Funcional Components', 'hooks', 'RouterDom', 'Vite']
   },
 
   {
     id: '5',
-    nombre: 'terminal',
+    nombre: 'Bash terminal',
     color: 'gris',
     img: img5,
-    descripcion: ['Ubicarse', 'Crear archivos', 'Remover', 'Configurar alias'],
+    descripcion: ['Scripts', 'Creacion', 'Rutas', 'alias']
   },
   {
     id: '6',
     nombre: 'NPM',
     color: 'rojo',
     img: img6,
-    descripcion: ['Manejo de Dependencias', 'Configuracion de Paquetes', 'git'],
+    descripcion: ['Instalacion', 'Configuración', 'Ejecución']
   },
   {
     id: '7',
-    nombre: 'GitHub',
+    nombre: 'GIT/GitHub',
     color: 'sangre',
     img: img7,
-    descripcion: ['Crear Repositorios', 'Fork', 'Gh-pages', 'Push & Pull'],
+    descripcion: ['Crear Repositorios', 'Fork', 'Gh-pages', 'Push & Pull']
   },
   {
     id: '8',
     nombre: 'NodeJS',
     color: 'verde',
     img: img8,
-    descripcion: ['Paquetes de consola', 'Llamadas http con Express','CRUD + mySQL'],
-  },
-];
+    descripcion: ['NPM', 'EXPRESS', 'CRUD + BD', 'HTTP']
+  }
+]
 
-export default data;
+export default data

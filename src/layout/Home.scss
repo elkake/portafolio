@@ -1,3 +1,7 @@
+.body_container{
+margin: auto;
+max-width: 1920px;
+}
 .me_container_back {
   position: absolute;
   font-size: 50px;
@@ -74,6 +78,10 @@
 }
 .me_button {
   margin-bottom: 2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .me_right {
   flex: 1;

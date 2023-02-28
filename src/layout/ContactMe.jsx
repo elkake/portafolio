@@ -2,18 +2,27 @@ import './ContactMe.scss';
 import avion from '../img/contact/mail.svg';
 import mont from '../img/contact/motañas.svg';
 import { contextData } from '../context/Context';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
 
 function ContactMe() {
   const { light } = contextData();
-
+  const [visible, setVisible] = useState(false)
   const transition = { duration: 2, type: 'spring' };
   const form = useRef();
 
   const sendEmail = e => {
     e.preventDefault();
+
+    const nombre = document.getElementById('nombre')
+    const correo = document.getElementById('correo')
+    const mensaje = document.getElementById('mensaje')
+
+    if (!nombre.value || !correo.value || !mensaje.value) {
+      setVisible(true)
+      return
+    }
 
     emailjs
       .sendForm(
@@ -30,6 +39,12 @@ function ContactMe() {
           console.log(error.text);
         }
       );
+
+    nombre.value = ''
+    correo.value = ''
+    mensaje.value = ''
+    alert('Mensaje enviado Correctamente')
+    setVisible(false)
   };
 
   return (
@@ -59,6 +74,7 @@ function ContactMe() {
               type="text"
               placeholder="Ingresa tu nombre"
             />
+          <span className={`spanForm ${visible && 'visible'} `}>*Porfavor ingresar un nombre</span>
           </div>
           <div className="cm_input-cotainer">
             <label htmlFor="">Correo:</label>
@@ -69,15 +85,17 @@ function ContactMe() {
               type="email"
               placeholder="ejemplo@email.xyz"
             />
+          <span className={`spanForm ${visible && 'visible'} `}>*Porfavor ingresar un correo</span>
           </div>
-
-          <textarea
+          <div className="cm_input-cotainer"><textarea
             id="mensaje"
             name="message"
             placeholder="Escribeme algo"
             className={`cm_input textarea ${light && 'bgwhite-input'}`}
             rows="10"
           ></textarea>
+          <span className={`spanForm ${visible && 'visible'} `}>*Porfavor ingresar un mensaje</span></div>
+
           <input type="submit" value="ENVIAR" className="button cm_button" />
         </form>
       </div>

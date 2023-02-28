@@ -1,19 +1,11 @@
 import './Home.scss';
-import MeModal from '../modules/MeModal';
 import flotar from '../img/me/balls.svg';
 import elkake from '../img/me/me.png';
-import { useState } from 'react';
 import vector1 from '../img/me/vectorme.svg';
 import { motion } from 'framer-motion';
 function Home() {
-  const [meModal, setMeModal] = useState(false);
-
   const transition = { duration: 2, type: 'spring' };
 
-  const abrir = () => {
-    setMeModal(true);
-    document.body.style.overflow = 'hidden';
-  };
   return (
     <div name="me" id="me" className="body_container">
       <section className="me_container">
@@ -26,15 +18,14 @@ function Home() {
           </div>
           <div className="me_left-resume">
             <p>
-              "Un estudiante autodidacta que quiere encontrar su lugar en este
-              mundo de la programación y poder seguir aprendiendo sin parar
-              mientras hago lo que me gusta."
+              &quot;Especializado en
+desarrollo web, intento compatibilizar la resolución de problemas con crear experiencias
+atractivas y dinámicas para los usuarios&quot;
             </p>
           </div>
-          <button className="button me_button" onClick={abrir}>
-            MAS SOBRE MI
-          </button>
-          {meModal && <MeModal setMeModal={setMeModal} />}
+          <a className="button me_button" href="https://drive.google.com/file/d/15uV4z6bEUpFXjDFRceFV_6MGqWbg5EaN/view?usp=sharing" target="_blank" rel="noreferrer">
+            DESCARGA CV
+          </a>
         </div>
         <div className="me_right">
           <div className="vector1">
