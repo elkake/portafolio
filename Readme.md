@@ -10,7 +10,7 @@
 
 <br>
 <h2 align="center">
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 Portfolio 2023 </h2>
 
 <span align="center"  >Portafolio creado con la mayoria de los conocimientos que adquiri durante este tiempo acerca del desarrollo web Frontend, aqui se muestran enlaces a mis redes y proyectos realizados, los cuales seran actualizados mientras mas avance en este mundo de la programacion :D<span>
