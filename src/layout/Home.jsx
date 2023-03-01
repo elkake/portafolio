@@ -23,8 +23,8 @@ desarrollo web, intento compatibilizar la resolución de problemas con crear exp
 atractivas y dinámicas para los usuarios&quot;
             </p>
           </div>
-          <a className="button me_button" href="https://drive.google.com/file/d/15uV4z6bEUpFXjDFRceFV_6MGqWbg5EaN/view?usp=sharing" target="_blank" rel="noreferrer">
-            DESCARGA CV
+          <a className="button me_button" href="https://drive.google.com/file/d/1kf9rbway4oJ8SkvrocuZybEFTPQboEI5/view?usp=sharing" target="_blank" rel="noreferrer">
+            MI CV
           </a>
         </div>
         <div className="me_right">
